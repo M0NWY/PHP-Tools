@@ -1,5 +1,5 @@
 <?php
-   foreach (glob("*") as $filename) {
-      echo "$filename " . file_get_contents($filename) . "\n";
-   }
+ foreach(glob('*') as $file) {
+ echo file_get_contents( $file );   
+}
 ?>
